@@ -1,15 +1,14 @@
 public class Caracter
 {
-public int Popular;
-public string Name;
-public string PName;
-public int Age;
-public bool HowPopular;
+public string Name;    
+public string PName;   
+public int Age;   
 
 
-
-public void Talk()
+public Caracter(string name, string pname, int age)
     {
-    Console.WriteLine($"{Name}: Hej {PName}! Jag heter {Name} och är {Age} år gammal.");
+        Name = name;
+        PName = pname;
+        Age = age;
     }
 }
